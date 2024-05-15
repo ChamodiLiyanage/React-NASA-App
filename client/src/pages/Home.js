@@ -11,7 +11,7 @@ function Home() {
   const getData = async () => {
     try {
       const response = await axios.post(
-        "/api/user/get-user-info-by-id",
+        "https://react-nasa-app.onrender.com/api/user/get-user-info-by-id",
         {},
         {
           headers: {
